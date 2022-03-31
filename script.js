@@ -21,9 +21,11 @@ function setnshowtimer(){
 };
 
 function setNshowhit(){
-    h=Math.floor(Math.random()*10);
-    document.querySelector("#hit").innerHTML=h;
-};
+    
+        hitter=Math.floor(Math.random()*10)
+       var b= document.querySelector("#hit").textContent=hitter
+    
+}
 
 
 function makebubble(){
@@ -35,17 +37,18 @@ for(i=0;i<75;i++){
 document.querySelector("#btm").innerHTML=clutter;
 };
 
-function mainengine(){
-    document.querySelector("#btm").addEventListener("click",function(dets){
-        if(Number(dets.target.textContent) === h){
-            setnshowscore(score += 10);
-        }
-        else{
-            console.log("no");
-        }
+document.querySelector("#btm").addEventListener("click",function(dets){
+    if(Number(dets.target.textContent)===hitter){
+     document.querySelector("#score").textContent=score
+     ans =Number(setnshowscore(score+=10))
+     setNshowhit();
+     makebubble();
+    
+    }
+    else{
+        alert("You are entering wrong key")
+    }
     })
-        
-}
 
 makebubble();
 setnshowscore(score);
