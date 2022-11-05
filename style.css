@@ -111,3 +111,18 @@ h1{
     transform: translate(-50%,-50%);
     font-size: 30px;
 }
+@media(max-width: 500px){
+    #btm h1{
+        font-size: 28px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .box{  
+    margin-left: 54px;
+    padding: 3px;
+    }
+    .hit{
+        padding-right: 25px;
+    }
+}
