@@ -37,13 +37,13 @@ html,body{
     background-color: white;
 }
 h1{
-    font-size: 20px;
+    font-size: 22px;
 }
 .box{
     position: absolute;
     height: 35px;
-    padding: 5px;
     margin-left: 90px;
+    padding: 5px;
     background-color: white;
     border: solid rgb(82, 187, 82) 3px;
     display: flex;
@@ -57,7 +57,10 @@ h1{
     font-size: 20px;
     height: 100%;
     width: calc(100%/3);
-    padding: 20px;
+}
+.score h1{
+    padding-right: 30px;
+    
 }
 .timer{
     display: flex;
@@ -66,6 +69,9 @@ h1{
     font-size: 20px;
     height: 100%;
     width: calc(100%/3);
+}
+.timer h1{
+    padding-right: 29px;
 }
 .hit{
     display: flex;
@@ -111,6 +117,7 @@ h1{
     transform: translate(-50%,-50%);
     font-size: 30px;
 }
+
 @media(max-width: 500px){
     #btm h1{
         font-size: 28px;
@@ -129,5 +136,6 @@ h1{
         padding-right: 28px;
     }
     .timer{
-        padding-right: 29px;
+        padding-right: 32px;
+    }
 }
