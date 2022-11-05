@@ -31,7 +31,7 @@ function setNshowhit(){
 
 function makebubble(){
     var clutter="";
-for(i=0;i<74;i++){
+for(i=0;i<70;i++){
     var rn=Math.floor(Math.random()*10);
     clutter += `<div id="bubble">${rn}</div>`
 };
