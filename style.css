@@ -43,7 +43,7 @@ h1{
     position: absolute;
     height: 35px;
     margin-left: 90px;
-    padding: 5px;
+    padding: 4px;
     background-color: white;
     border: solid rgb(82, 187, 82) 3px;
     display: flex;
@@ -59,7 +59,7 @@ h1{
     width: calc(100%/3);
 }
 .score h1{
-    padding-right: 33px;
+    padding-right: 35px;
     
 }
 .timer{
@@ -71,7 +71,7 @@ h1{
     width: calc(100%/3);
 }
 .timer h1{
-    padding-right: 33px;
+    padding-right: 35px;
 }
 .hit{
     display: flex;
@@ -133,7 +133,7 @@ h1{
         padding-right: 25px;
     }
     .score{
-        padding-right: 28px;
+        padding-right: 27px;
     }
     .timer{
         padding-right: 32px;
