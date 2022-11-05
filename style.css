@@ -59,7 +59,7 @@ h1{
     width: calc(100%/3);
 }
 .score h1{
-    padding-right: 31px;
+    padding-right: 33px;
     
 }
 .timer{
@@ -71,7 +71,7 @@ h1{
     width: calc(100%/3);
 }
 .timer h1{
-    padding-right: 31px;
+    padding-right: 33px;
 }
 .hit{
     display: flex;
